@@ -1,0 +1,97 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(243, 243, 37, 0.801);
+    height: 40px;
+    box-shadow: 1px 1px 1px gray;
+
+    align-items: center;
+
+}
+
+
+
+
+
+.appname {
+
+
+    margin-left: 40px;
+    font-weight: bold;
+
+}
+
+
+.appname.arabic{
+    margin-right: 40px;
+
+}
+
+.watch {
+ 
+    font-weight: bold;
+}
+
+.link {
+
+    text-decoration: none;
+    color: black;
+}
+
+
+.vote {
+
+    display: flex;
+
+}
+
+.vote .fa-heart {
+
+    padding-right: 40px;
+
+
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content span {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .dropdown-content span:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:gray;
+  }

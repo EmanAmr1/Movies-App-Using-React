@@ -1,0 +1,64 @@
+.header {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    padding-left: 40px;
+    margin-top: 10px;
+    height: 200px;
+    width: 90%;
+    justify-content: center;
+    margin-left: 40px;
+
+
+
+
+}
+
+.header.arabic {
+    display: flex;
+padding: 30px;
+    margin-right: 40px;
+    justify-content: flex-start;
+}
+
+
+
+input {
+
+    width: 70%;
+    border-radius: 25px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+}
+
+
+input:focus {
+    outline: none;
+    border: 1px solid gray;
+}
+
+.search {
+
+    display: flex;
+    gap: 10px;
+
+
+}
+
+button {
+
+    width: 100px;
+    border-radius: 15px;
+    background-color: goldenrod;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 1px gray;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: gray;
+}
